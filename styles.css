@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background: #fdbe68;
+}
+
+.container {
+    margin: 20% auto;
+    width: max-content;
+}
+
+kbd {
+    display: inline-block;
+    height: 6em;
+    line-height: 800%;
+    text-align: center;
+}
+
+.black-keys, .white-keys {
+    position: relative;
+}
+
+.white-keys kbd {
+    background: white;
+    border: 1px solid black;
+    font-size: 2em;
+    width: 2em;
+}
+
+.black-keys kbd {
+    background: black;
+    color: white;
+    position: relative;
+    top: -12.1em;
+    width: 1.75em;
+}
